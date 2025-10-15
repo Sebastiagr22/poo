@@ -18,3 +18,15 @@ y los setters lo que hacen es que permiten modificar algun metodo
 
 
 5. Verdadero o falso: “Un método setter no debe validar los datos que recibe.” Justifique.
+verdadero, ya que en un metodo stter lo que se hace es que se cambian los datos seleccionados
+
+                  Atributos
+
+Nombre       Tipo de dato        Visibilidad         Descripción			
+			
+titular		   Stream             Private            nombre de la persona dueña de la cuenta
+
+numeroCuenta   Stream             Private            el numero de la cuenta a la que se hace
+                                                     el deposito
+
+saldo          double             Private            cantidad de dinero que hay en la cuenta
