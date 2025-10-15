@@ -1,0 +1,20 @@
+1. ¿Qué es la encapsulación y por qué es importante en la Programación Orientada a Objetos?
+
+
+2. ¿Qué diferencia hay entre un método y un constructor?
+el consructor es el inicio de todo, define el objeto, y los 
+metodos son los que dicen qe hace el objeto
+
+
+
+3. ¿Por qué los atributos deben ser privados y no públicos?
+porque se debe cuidar la informacion que se maneja, ademas para que no puedan ser 
+modificados afuera del codigo
+
+
+4. ¿Qué función cumplen los getters y setters?  
+lo getters lo que hacen es que 
+y los setters lo que hacen es que permiten modificar algun metodo
+
+
+5. Verdadero o falso: “Un método setter no debe validar los datos que recibe.” Justifique.
