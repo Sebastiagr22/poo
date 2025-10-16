@@ -1,32 +1,64 @@
 1. ¿Qué es la encapsulación y por qué es importante en la Programación Orientada a Objetos?
+la encapsulación es como protejer todos los datos y tambien ayuda a mantener el codigo ordenado
+evitando que el codigo se pueda editar fuera de la clase 
 
 
 2. ¿Qué diferencia hay entre un método y un constructor?
-el consructor es el inicio de todo, define el objeto, y los 
-metodos son los que dicen qe hace el objeto
-
+el consructor es el inicio de todo, define el objeto o lo crea y los 
+metodos son los que dicen que hace el objeto
 
 
 3. ¿Por qué los atributos deben ser privados y no públicos?
 porque se debe cuidar la informacion que se maneja, ademas para que no puedan ser 
-modificados afuera del codigo
+modificados afuera del codigo evitnado errores 
 
 
 4. ¿Qué función cumplen los getters y setters?  
-lo getters lo que hacen es que 
-y los setters lo que hacen es que permiten modificar algun metodo
+lo getters lo que hacen es que nos permite ver el valor de un atributo especifico
+y los setters lo que hacen es que permiten modificar el valor de un atributo especifico
 
 
 5. Verdadero o falso: “Un método setter no debe validar los datos que recibe.” Justifique.
-verdadero, ya que en un metodo stter lo que se hace es que se cambian los datos seleccionados
+falso, ya que una de las funciones mas importantes de este metodo es justamente validar los datosque recibe
+antes de asignarlo al atributo
 
-                  Atributos
 
-Nombre       Tipo de dato        Visibilidad         Descripción			
+                     Atributos
+
+Nombre          Tipo de dato        Visibilidad         Descripción			
 			
-titular		   Stream             Private            nombre de la persona dueña de la cuenta
+titular		      String            Private            nombre de la persona dueña de la cuenta
 
-numeroCuenta   Stream             Private            el numero de la cuenta a la que se hace
-                                                     el deposito
+numeroCuenta      String             Private            el numero de la cuenta a la que se hace el deposito
 
-saldo          double             Private            cantidad de dinero que hay en la cuenta
+saldo             double             Private            cantidad de dinero que hay en la cuenta
+
+Codigo            String             private            Codigo del producto   
+
+cantidad           Int               private            X cantidad del producto 
+
+Descripcion       String             Private            Descripcion del producto                      
+
+Precio unitario   Double             Private            precio del producto                              
+
+
+
+
+
+                        Métodos
+
+Nombre          parametros         retorno                 Descripción    
+
+depositar         double            saldo                 permite depositar dinero en la cuenta
+ 
+retirar           double             saldo                retorna el saldo despues de retirar dinero de la cuenta
+
+                                 atributos tirular,       retorna una cadena con la informacion de la cuenta
+toString          String         numero de cuenta y
+                                 saldo
+                                
+
+calcular 
+sub total         double     la cantidad multiplicada      regresa el subtotal despues de multiplicar la cantidad
+                             por el precio unitario
+
