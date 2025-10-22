@@ -11,8 +11,8 @@ public class Auto extends Vehiculo {
         velocidad += 15;
     }
 
-@Override
-public String info() {
-        return "Auto " + marca + " (" + puertas + " puertas) va a " + velocidad + " km/h";
+    @Override
+    public String info() {
+        return "Auto" + marca + " (" + puertas + " puertas) va a " + velocidad + " km/h";
     }
 }

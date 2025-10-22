@@ -10,6 +10,6 @@ public class Moto extends Vehiculo {
 
     @Override
     public String info() {
-        return " Moto " + marca + " va a " + velocidad + " km / h ";
+        return " Moto" + marca + "va a " + velocidad + " km/h ";
     }
 }
